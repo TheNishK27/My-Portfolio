@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <div class="wholeBody">
+        <div class="navBar">
+            <div class="navBarContainer">
+                <div class="navBarLogo"><img src="Logo2.png"></div>
+                <div class="navBarMenu">
+                    <a href="#" style="text-decoration: none;">Home </a>
+                    <a href="#" style="text-decoration: none;"> Skills </a>
+                    <a href="#" style="text-decoration: none;"> Projects </a>
+                    <a href="#" style="text-decoration: none;"> Gallery </a>
+                    <a href="#" style="text-decoration: none;"> Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="iama">
+            I'm a
+            <br>
+            <span class="animation"></span>
+        </div>
+        <div class="aboutMe">
+            <div class="aboutMeContent">
+                Hey, I am Nishant a.k.a Noah, a dynamic and ambitious first-year student pursuing a Bachelor's degree in Electronics and Communication Engineering at the prestigious National Institute of Technology, Patna. With a passion for technology, coding, designing and photography, I am dedicated to honing my skills and contributing to the ever-evolving landscape of electronics and communication engineering. I am good at playing football too, I play and watch football passionately. I am glad to see you here, Let's Connect !
+            </div>
+            <div class="aboutMeImg"><img src="AboutMe.png"</div>
+        </div> 
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".animation", {
+            strings: ["Engineer","Developer","Designer","Athlete"],
+            typeSpeed:150,
+            backSpeed:150,
+            loop:true
+        })
+    </script>
+</body>
+</html>
