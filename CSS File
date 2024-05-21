@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Agentur";
+    src: url(FontsFree-Net-Agentur-Display.ttf);
+}
+
+img {
+    width: 150px;
+}
+
+.body {
+    background-color: black;
+}
+
+.navBarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navBarMenu {
+    margin-left: 20px; 
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+.navBarMenu a {
+    color:#FF5F1F;
+    text-decoration: none;
+    font-family:'Agentur';
+}
+
+.navBarMenu a:hover {
+    color: white; /* Change color to white on hover */
+}
+
+.aboutMe {
+    display: flex;
+    margin-top: 50px;
+}
+
+.aboutMeContent {
+    color: white;
+    font-family: 'Agentur';
+    font-size: 25px;
+    text-align: right;
+    padding-top:20px;
+    padding-left: 100px;
+    margin-right: 25px; /* Maintain 25px margin */
+    flex: 1;
+}
+
+.aboutMeImg {
+    padding-top: 0px;
+    padding-right: 100px;
+    margin-left: 0px;
+    margin-right: 25px;
+}
+
+.aboutMeImg img {
+    width: 50px; /* Specify the width of the image */
+    vertical-align: middle; /* Align the image vertically */
+}
+
+.iama {
+    color: white;
+    font-family: 'Agentur';
+    text-align: center;
+    font-size: larger;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.animation{
+    color: #FF5F1F;
+    font-size: 150px;
+}
