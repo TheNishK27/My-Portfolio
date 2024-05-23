@@ -1,86 +1,138 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My-Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="body">
-    <div class="wholeBody">
-        <div class="navBar">
-            <div class="navBarContainer">
-                <div class="navBarLogo"><img src="navbarlogo.png" alt="Logo"></div>
-                <div class="navButtons">
-                    <div id="linkedin">
-                        <a href="https://www.linkedin.com/in/nishant-kumar-4a2293257/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-                            <img class="social-icon" src="6bab3017350ca04c6fa05569672bd31e.jpg" alt="LinkedIn">
-                        </a>
-                    </div>
-                    <div id="twitter">
-                        <a href="https://x.com/GeekNeesh" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-                            <img class="social-icon" src="Screenshot 2024-05-23 165431.png" alt="X">
-                        </a>
-                    </div>
-                    <div id="instagram">
-                        <a href="https://www.instagram.com/thenisk27/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-                            <img class="social-icon" src="HD-wallpaper-instagram-black-logo-thumbnail.jpg" alt="Instagram">
-                        </a>
-                    </div>                    
-                </div>
-                <div class="navBarMenu">
-                    <div id="home"><a href="#" style="text-decoration: none;">Home</a></div>
-                    <div id="gallery"><a href="#" style="text-decoration: none;">Gallery</a></div>
-                    <div id="contact"><a href="#" style="text-decoration: none;">Contact</a></div>
-                </div>
-            </div>
-        </div>
-        <div class="iama">
-            I'm a
-            <br>
-            <span class="animation"></span>
-        </div>
-        <div class="aboutMe">
-            <div class="aboutMeContent">
-                Hey, I am Nishant a.k.a Noah, a dynamic and ambitious first-year student pursuing a Bachelor's degree in Electronics and Communication Engineering at the prestigious National Institute of Technology, Patna. With a passion for technology, coding, designing and photography, I am dedicated to honing my skills and contributing to the ever-evolving landscape of electronics and communication engineering. I am good at playing football too, I play and watch football passionately. I am glad to see you here, Let's Connect !
-            </div>
-            <div class="aboutMeImg"><img src="AboutMe.png" alt="About Me"></div>
-        </div> 
-    </div>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed(".animation", {
-            strings: ["Engineer", "Developer", "Designer", "Athlete"],
-            typeSpeed: 150,
-            backSpeed: 150,
-            loop: true
-        });
-    </script>
-    <br><br>
-    <div class="education">
-        <div class="educationimage"><img src="Education.png" alt="Education"></div>
-        <div class="educationcontent">
-            <table>
-                <tr>
-                    <th>Central Board of Secondary Education<br>Class Xth Board<br> in English Medium</th>
-                    <th>Kendriya Vidyalaya No.2 E.M.E.<br>Baroda, Gujarat</th>
-                    <th>Academic Session<br>2020-21</th>
-                    <th>96.8%</th>
-                </tr>
-                <tr>
-                    <th>Central Board of Secondary Education<br>Class XIIth Board<br>in Physics, Chemistry, Mathematics stream</th>
-                    <th>Kendriya Vidyalaya Barwaha<br>Barwaha, Madhya Pradesh</th>
-                    <th>Academic Session<br>2022-23</th>
-                    <th>96.2%</th>
-                </tr>
-                <tr>
-                    <th>Bachelor of Technology<br> in Electronics and Communication</th>
-                    <th>National Institute of Technology, Patna (NITP)<br>Bihar</th>
-                    <th>Academic Session<br>2023-27</th>
-                    <th>8.5 CGPA</th>
-                </tr>
-            </table>
-        </div>
-    </div>
-</body>
-</html>
+@font-face {
+    font-family: "Agentur";
+    src: url(FontsFree-Net-Agentur-Display.ttf);
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Agentur', sans-serif;
+}
+
+.navBarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: black;
+}
+
+img {
+    width: 350px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.navButtons {
+    display: flex;
+    gap: 20px;
+    margin: 0 auto; /* Center the navButtons within the navBarContainer */
+}
+
+.navBarMenu {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.navBarMenu a {
+    color: #FF5F1F;
+    text-decoration: none;
+    font-family: 'Agentur';
+}
+
+.navBarMenu a:hover {
+    color: white; /* Change color to white on hover */
+}
+
+.aboutMe {
+    display: flex;
+    margin-top: 50px;
+}
+
+.aboutMeContent {
+    color: white;
+    font-size: 25px;
+    text-align: right;
+    padding-top: 20px;
+    padding-left: 100px;
+    margin-right: 25px;
+    flex: 1;
+}
+
+.aboutMeImg {
+    padding-top: 0px;
+    padding-right: 100px;
+    margin-left: 0px;
+    margin-right: 25px;
+}
+
+.aboutMeImg img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.iama {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.animation {
+    color: #FF5F1F;
+    font-size: 150px;
+}
+
+.education {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 100px;
+    color: white;
+    font-size: 25px;
+}
+
+.educationimage img {
+    width: 47px;
+}
+
+td, th {
+    font-weight: normal;
+}
+
+.educationcontent {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.educationcontent table {
+    width: 100%;
+}
+
+.educationcontent th {
+    padding: 10px;
+    text-align: left;
+}
+
+.educationcontent th:nth-child(2) {
+    text-align: center;
+}
+
+.educationcontent th:nth-child(3) {
+    text-align: center;
+}
+
+.educationcontent th:nth-child(4) {
+    text-align: right;
+}
+
+.social-icon {
+    width: 40px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
