@@ -10,13 +10,28 @@
     <div class="wholeBody">
         <div class="navBar">
             <div class="navBarContainer">
-                <div class="navBarLogo"><img src="Logo2.png"></div>
+                <div class="navBarLogo"><img src="navbarlogo.png" alt="Logo"></div>
+                <div class="navButtons">
+                    <div id="linkedin">
+                        <a href="https://www.linkedin.com/in/nishant-kumar-4a2293257/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                            <img class="social-icon" src="6bab3017350ca04c6fa05569672bd31e.jpg" alt="LinkedIn">
+                        </a>
+                    </div>
+                    <div id="twitter">
+                        <a href="https://x.com/GeekNeesh" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                            <img class="social-icon" src="Screenshot 2024-05-23 165431.png" alt="X">
+                        </a>
+                    </div>
+                    <div id="instagram">
+                        <a href="https://www.instagram.com/thenisk27/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                            <img class="social-icon" src="HD-wallpaper-instagram-black-logo-thumbnail.jpg" alt="Instagram">
+                        </a>
+                    </div>                    
+                </div>
                 <div class="navBarMenu">
-                    <a href="#" style="text-decoration: none;">Home </a>
-                    <a href="#" style="text-decoration: none;"> Skills </a>
-                    <a href="#" style="text-decoration: none;"> Projects </a>
-                    <a href="#" style="text-decoration: none;"> Gallery </a>
-                    <a href="#" style="text-decoration: none;"> Contact</a>
+                    <div id="home"><a href="#" style="text-decoration: none;">Home</a></div>
+                    <div id="gallery"><a href="#" style="text-decoration: none;">Gallery</a></div>
+                    <div id="contact"><a href="#" style="text-decoration: none;">Contact</a></div>
                 </div>
             </div>
         </div>
@@ -29,17 +44,43 @@
             <div class="aboutMeContent">
                 Hey, I am Nishant a.k.a Noah, a dynamic and ambitious first-year student pursuing a Bachelor's degree in Electronics and Communication Engineering at the prestigious National Institute of Technology, Patna. With a passion for technology, coding, designing and photography, I am dedicated to honing my skills and contributing to the ever-evolving landscape of electronics and communication engineering. I am good at playing football too, I play and watch football passionately. I am glad to see you here, Let's Connect !
             </div>
-            <div class="aboutMeImg"><img src="AboutMe.png"</div>
+            <div class="aboutMeImg"><img src="AboutMe.png" alt="About Me"></div>
         </div> 
     </div>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed(".animation", {
-            strings: ["Engineer","Developer","Designer","Athlete"],
-            typeSpeed:150,
-            backSpeed:150,
-            loop:true
-        })
+            strings: ["Engineer", "Developer", "Designer", "Athlete"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        });
     </script>
+    <br><br>
+    <div class="education">
+        <div class="educationimage"><img src="Education.png" alt="Education"></div>
+        <div class="educationcontent">
+            <table>
+                <tr>
+                    <th>Central Board of Secondary Education<br>Class Xth Board<br> in English Medium</th>
+                    <th>Kendriya Vidyalaya No.2 E.M.E.<br>Baroda, Gujarat</th>
+                    <th>Academic Session<br>2020-21</th>
+                    <th>96.8%</th>
+                </tr>
+                <tr>
+                    <th>Central Board of Secondary Education<br>Class XIIth Board<br>in Physics, Chemistry, Mathematics stream</th>
+                    <th>Kendriya Vidyalaya Barwaha<br>Barwaha, Madhya Pradesh</th>
+                    <th>Academic Session<br>2022-23</th>
+                    <th>96.2%</th>
+                </tr>
+                <tr>
+                    <th>Bachelor of Technology<br> in Electronics and Communication</th>
+                    <th>National Institute of Technology, Patna (NITP)<br>Bihar</th>
+                    <th>Academic Session<br>2023-27</th>
+                    <th>8.5 CGPA</th>
+                </tr>
+            </table>
+        </div>
+    </div>
 </body>
 </html>
