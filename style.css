@@ -7,6 +7,9 @@ body {
     background-color: black;
     margin: 0;
     font-family: 'Agentur', sans-serif;
+    background-image: url("NavBarBackgroundImage2.jpg"); 
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .navBarContainer {
@@ -14,7 +17,6 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: black;
 }
 
 img {
@@ -91,6 +93,9 @@ img {
     padding: 50px 100px;
     color: white;
     font-size: 25px;
+    background-image: url("NavBarBackgroundImage3.jpg"); 
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .educationimage img {
