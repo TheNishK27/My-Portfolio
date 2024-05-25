@@ -183,6 +183,10 @@ td, th {
     gap: 20px; /* Add some space between the project containers */
 }
 
+.promain2 a {
+    text-decoration: none;
+}
+
 .paycontainer, .porcontainer, .fincontainer {
     flex: 1; /* Each container will take up an equal portion of the available space */
     border-width: 1px;
