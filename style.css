@@ -223,5 +223,10 @@ td, th {
     transition-duration: 0.25s;
 }
 @media (max-width: 720px) and (min-width:600px) {
-    
+    .iama {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+}
 }
